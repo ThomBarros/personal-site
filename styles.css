@@ -68,6 +68,17 @@ nav a:hover {
   color: #555;
 }
 
+.cv_embed {
+    justify-content: center;
+}
+
+embed {
+  width: 75%;
+  height: 1000px;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
 footer {
   text-align: center;
   padding: 1rem;

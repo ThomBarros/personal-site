@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post 02 Mar - Thomas Barros</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    </header>
+
+  <main>
+    <section class="hero">
+      <h1>Blog</h1>
+    </section>
+
+    <section class="content">
+      <h2>Bubble Sort, Depth First Search, Breadth First Search</h2>
+      <h3>2nd March 2026 (02/03/26)</h3>
+        <p>
+          A bit more sorting today, then some searching.
+        </p>
+        <p>
+          Bubble sort works by comparing each adjacent pair and
+          swapping their position if they are not in the right order.
+          After each iteration, one less element needs to be 
+          compared, until there are no more elements left to 
+          be compared. 
+          The algorithm is most appropriate for data that is already 
+          nearly sorted and requires minimal swappings. The
+          algorithm runs in O(n^2) time, but performs in 
+          O(n) on a list that is already sorted, since it just 
+          iterates through the array without swapping. 
+        </p>
+        <p>
+          Now to the searching algorithms. Depth first search starts 
+          at the root node of a tree and explores as deep as possible
+          along each branch before backtracking. A stack is used 
+          to keep track of explored nodes along a specified path, 
+          making backtracking easier.
+        </p>
+        <p>
+          Breadth first search explores all the nodes at the 
+          current depth before exploring the nodes at the next depth
+          level. It uses a queue to keep track of the child nodes 
+          not yet explored.
+          The queue we implemented can be based on a linked list with
+          tail pointers, or based on the dynamic array.
+        </p>
+        <p>TB</p>
+    </section>
+    <section class="content">Return to <a href="../index.html">home</a>.</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Thomas Barros</p>
+  </footer>
+</body>
+</html>

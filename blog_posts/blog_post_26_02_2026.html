@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post 26 Feb - Thomas Barros</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    </header>
+
+  <main>
+    <section class="hero">
+      <h1>Blog</h1>
+    </section>
+
+    <section class="content">
+      <h2>Binary Search</h2>
+      <h3>26th February 2026 (26/02/26)</h3>
+        <p>
+            Binary search is a searching algorithm for a sorted array of values. It is used to find 
+            whether a value is in a sorted array.
+            Given an array of sorted values, we set left equal to the 0th index, and right equal to the index of the final value 
+            in the list. 
+            We check that right is not less than left; if it is, than the value we are searching for 
+            does not exist in the sorted array, so we return false. 
+            We then set middle to be the average of left and right, rounded down. 
+            If the value at index middle is greater than the value we are searching for, we set right 
+            equal to middle index - 1.
+            If the value at index middle is less than the value we are searching for, we set left 
+            equal to middle index + 1.
+            Else, when neither of the previous two cases are true, the value of the middle index must be equal to the 
+            value we are searching for, so we return true.
+            It runs worst case O(log n) time.
+        </p>
+        <p>
+            Representing our binary search as a binary search tree, we can see that the worst case time complexity of the binary search algorithm is 
+            O(log(n)), since the worst case occurs when we reach the deepest level of the tree, and a binary search tree will always have
+            floor(log_2(n) + 1) levels. In binary search, we use three pointers for left, right and middle irrespective 
+            of the size of the array. So the space complexity of binary search is O(1).
+        </p>
+        <p>TB</p>
+    </section>
+    <section class="content">Return to <a href="../index.html">home</a>.</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Thomas Barros</p>
+  </footer>
+</body>
+</html>

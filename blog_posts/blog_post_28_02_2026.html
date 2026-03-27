@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post 28 Feb - Thomas Barros</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    </header>
+
+  <main>
+    <section class="hero">
+      <h1>Blog</h1>
+    </section>
+
+    <section class="content">
+      <h2>Merge Sort, Quick Sort, Insertion Sort, Heap Sort</h2>
+      <h3>28th February 2026 (28/02/26)</h3>
+        <p>
+          Merge sort works by dividing the array into n subarrays,
+          with each containing one element. Then the subarrays are
+          repeatedly merged until there is only one subarray
+          remaining. This is the sorted array. Worst case 
+          time complexity is O(n log n).
+        </p>
+        <p>
+          For quick sort, firstly, a pivot value is picked and the 
+          range of values is partitioned based on being larger or 
+          smaller than the pivot. Quick sort is then recursively
+          applied to a subrange up to the point of division and to 
+          the subrange after it. Worst case time complexity is O(n^2)
+          for when the array is already sorted. Best case time 
+          complexity is O(n log n).     
+        </p>
+        <p>
+          In insertion sort, beginning with first element of an array
+          we insert each element into its correct position. To do so, 
+          each element in a sequence is shifted one place to the right
+          until a suitable position is found for the element being 
+          inserted. Worst case time complexity is O(n^2) time due to 
+          the worst case of arrays where each element is the smallest 
+          or second smallest of the elements before it. 
+        </p>
+        <p>
+          Heap sort requires us to implement a heap. In particular, 
+          a heap is a tree-based data structure that satisfies the heap
+          property. For a max heap, this property is that 
+          for any given node in the tree, the value of the parent node
+          is greater than or equal to its value. Heap sort, then, 
+          first turns the array into a max heap using the heapify
+          function, which builds the heap in O(n) time. Then 
+          the first element is swapped with the final element and 
+          the range of the heap is decremented. The siftdown
+          function then moves the new first element to the correct
+          place. Then the swapping and sift down is repeated until
+          there is only a single element left in the array. The 
+          algorithm runs in O(n log n) time.     
+        </p>
+        <p>TB</p>
+    </section>
+    <section class="content">Return to <a href="../index.html">home</a>.</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Thomas Barros</p>
+  </footer>
+</body>
+</html>
